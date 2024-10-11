@@ -1,0 +1,26 @@
+.cartoes {
+    min-width: 250px;
+    min-height: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,  0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    transition: all 0.5s;
+
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+h1 {
+    width: 100%;
+}
+.cartoes:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 20px red;
+    transform: scale(1.2);
+    cursor: pointer;
+}
